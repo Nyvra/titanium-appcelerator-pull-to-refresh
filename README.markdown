@@ -14,7 +14,7 @@ Ti.include("lib/pulltorefresh.js");</pre>
 		}, 500)
 	}
 });</pre>
-<p>You can configure the colors, and in the success, you will put the callback, when the user pull the view (the action). After this, you will add the pull-to-refreshed instanced to your TableView and copy two events (scroll and scrollEnd), like this:</p>
+<p>You can configure the colors, and in the <b>action</b>, you will put the callback, when the user pull the view (the action). After this, you will add the pull-to-refreshed instanced to your TableView and copy two events (scroll and scrollEnd), like this:</p>
 <pre>var tableView = Ti.UI.createTableView();
 
 <b>tableView.headerPullView = pullToRefresh;</b>
