@@ -110,3 +110,7 @@ var PullToRefresh = {
 		PullToRefresh._arrow.show();
 	}
 }
+
+exports = exports || {};
+
+exports.PullToRefresh = PullToRefresh;
